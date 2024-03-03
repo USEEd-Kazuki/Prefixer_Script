@@ -4,11 +4,11 @@
 ## 使い方
 <br />1 , prefix_mapping.json ファイルを編集し、各クラスに対応するプレフィックスを指定します。
 <br />    JSON ファイルの例は以下の通りです:
-<br />    {
-<br />    "StaticMesh": "SM_",
-<br />    "Material": "M_",
-<br />    "Texture2D": "T_"
-<br />    }
+<br />      {
+<br />      "StaticMesh": "SM_",
+<br />      "Material": "M_",
+<br />      "Texture2D": "T_"
+<br />      }
 <br />2 , Unreal Engine 内でスクリプトを実行します。
 <br />    スクリプトは選択したアセットに対してアセットタイプを追加し、その結果をログに出力します。
 
